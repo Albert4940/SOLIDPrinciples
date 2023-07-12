@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PrincipleO
 {
-    public class Rectangle : Shape
+    public class Rectangle : ShapeWithSurface
     {
         public int Height { set; get; }
         public int Width { set; get; }
